@@ -19,7 +19,7 @@ function App() {
         }
       })
       .finally(() => setLoading(false));
-  }, []);
+  });
   return !loading ? (
     <div className='min-h-screen flex-wrape content-between bg-color-400'>
       <div className='w-full block'>

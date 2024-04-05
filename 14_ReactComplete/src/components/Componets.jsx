@@ -1,6 +1,4 @@
-import React from 'react';
-
-function Componets() {
+export function Componets() {
   return <div>Componets</div>;
 }
 

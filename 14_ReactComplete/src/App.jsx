@@ -1,11 +1,13 @@
 import './App.css';
-import { Componets, Props } from './components';
+import { Componets } from './components/Componets';
+import { Props } from './components/Props';
 
 function App() {
+  const roll = 101;
   return (
     <>
-      <Componets />
-      <Props />
+      {/* <Componets /> */}
+      <Props name='Muhammad Imran' roll={roll} />
     </>
   );
 }

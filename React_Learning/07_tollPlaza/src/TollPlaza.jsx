@@ -23,7 +23,7 @@ function TollPlaza() {
 
 	return (
 		<div className="flex justify-center items-center flex-col">
-			<h1 className="font-bold text-xl text-red-700">Toll Plaza</h1>
+			<h1 className="font-bold text-4xl text-red-700">Toll Plaza</h1>
 
 			<form
 				className="flex flex-col"
@@ -37,7 +37,7 @@ function TollPlaza() {
 					<select
 						id="options"
 						name="options"
-						className="border px-3 py-2 bg-slate-200"
+						className="border px-3 py-2 bg-slate-200 text-xl"
 						onChange={updatePrice}>
 						<option value="bike">Bike</option>
 						<option value="car">Car</option>
@@ -54,7 +54,7 @@ function TollPlaza() {
 				</div>
 				<button
 					type="submit"
-					className="m-2 p-3 bg-blue-500">
+					className="m-2 p-3 bg-blue-500 font-bold">
 					Submit
 				</button>
 			</form>

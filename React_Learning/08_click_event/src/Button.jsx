@@ -1,10 +1,11 @@
 import React from 'react';
 
 function Button() {
-	const eventHandle = () => {
-		console.log('ouch');
+	const handlClick = (e) => {
+		return (e.target.textContent = 'Ouch😒');
 	};
-	return <button onClick={eventHandle}>click me 😊</button>;
+
+	return <button onClick={(e) => handlClick(e)}>click me 😊</button>;
 }
 
 export default Button;

@@ -5,7 +5,14 @@ function UpdateArrayOfObject() {
 	const [carYear, setCarYear] = useState(new Date().getFullYear());
 	const [carMake, setCarMake] = useState('');
 	const [carModel, setCarModel] = useState('');
-	const handleAddCar = () => {};
+	const handleAddCar = () => {
+		const newCar = {
+			year: carYear,
+			make: carMake,
+			model: carModel,
+		};
+		setCars((c) => [...c, newCar]);0--
+	};
 	const handleRemoveCar = (index) => {};
 	const handleYearChange = (event) => {
 		setCarYear(event.target.value);
@@ -20,7 +27,13 @@ function UpdateArrayOfObject() {
 	return (
 		<>
 			<h2>List of Car Objects</h2>
-			<ul></ul>
+			<ul>
+				{cars.map((car, index) => {
+					<li key={index}>
+						{car.year} {car.make} {car.model}
+					</li>;
+				})}
+			</ul>
 			<input
 				type="number"
 				value={carYear}

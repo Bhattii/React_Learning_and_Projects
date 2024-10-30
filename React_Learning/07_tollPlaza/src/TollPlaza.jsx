@@ -66,8 +66,9 @@ function TollPlaza() {
 					type="number"
 					name="amount"
 					className="border-2 p-2 text-lg font-bold"
-					value={amount || ''} // Set input value to amount state or empty string to clear field
+					value={amount || ''}
 					onChange={handleBalance}
+					required
 				/>
 				<div className="flex items-center justify-center my-10">
 					<select

@@ -11,7 +11,7 @@ function UpdateArrayOfObject() {
 			make: carMake,
 			model: carModel,
 		};
-		setCars((c) => [...c, newCar]);0--
+		setCars((c) => [...c, newCar]);
 	};
 	const handleRemoveCar = (index) => {};
 	const handleYearChange = (event) => {

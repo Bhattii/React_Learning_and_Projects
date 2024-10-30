@@ -2,7 +2,7 @@ import profilePic from './assets/Update.jpg';
 function Cart() {
 	return (
 		<>
-			<div className="w-48 border p-5 m-5 shadow-2xl rounded-md inline-block ">
+			<div className="w-48 border p-5 m-5 shadow-2xl rounded-2xl inline-block ">
 				<img
 					src={profilePic}
 					alt="Profile Picture"

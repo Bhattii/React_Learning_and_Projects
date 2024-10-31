@@ -1,5 +1,5 @@
-import UpdateArray from '../UpdateArray';
-import Flex from './Flex';
+// import UpdateArray from '../UpdateArray';
+
 import UpdateArrayOfObject from './UpdateArrayOfObject';
 // import './App.css';
 
@@ -7,9 +7,7 @@ function App() {
 	return (
 		<>
 			{/* <UpdateArray /> */}
-			{/* <UpdateArrayOfObject />
-			 */}
-			<Flex />
+			<UpdateArrayOfObject />
 		</>
 	);
 }

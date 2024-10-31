@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Comprehensive HTML practice page with most HTML tags" />
+		<title>Comprehensive HTML Practice Page</title>
+	</head>
+	<body>
+		<!-- Header and Navigation -->
+		<header>
+			<h1>Comprehensive HTML Practice</h1>
+			<p>This page includes various HTML tags to practice.</p>
+			<nav>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main Content -->
+		<main>
+			<!-- Section with Headings, Paragraphs, Abbr, and Inline Formatting -->
+			<section id="about">
+				<h2>About Us</h2>
+				<p>This page includes most HTML tags, including rarely used ones.</p>
+				<p>
+					Our company is committed to providing the
+					<strong>best quality</strong> service. We value
+					<em>innovation</em> and <small>attention to detail</small>.
+				</p>
+				<p>
+					<abbr title="Hypertext Markup Language">HTML</abbr> is the language of
+					the web.
+				</p>
+				<p>Example of <code>&lt;code&gt;</code> element for inline code.</p>
+				<mark>This text is highlighted</mark> for emphasis.
+				<s>This text is struck through.</s>
+				<ins>This text is inserted as an example.</ins>
+				<del>This text is deleted for example purposes.</del>
+				<blockquote cite="https://example.com">
+					"Delivering quality is our top priority." - Founder
+				</blockquote>
+			</section>
+
+			<!-- List Examples -->
+			<section>
+				<h3>Our Values</h3>
+				<ul>
+					<li>Commitment</li>
+					<li>Quality</li>
+					<li>Customer Satisfaction</li>
+				</ul>
+				<h3>Steps to Success</h3>
+				<ol>
+					<li>Define Goals</li>
+					<li>Plan Actions</li>
+					<li>Execute</li>
+					<li>Evaluate</li>
+				</ol>
+				<h3>Employee Skills</h3>
+				<dl>
+					<dt>HTML</dt>
+					<dd>Markup language for creating web pages.</dd>
+					<dt>CSS</dt>
+					<dd>Styles web pages.</dd>
+					<dt>JavaScript</dt>
+					<dd>Provides interactivity to web pages.</dd>
+				</dl>
+			</section>
+
+			<!-- Table Example -->
+			<section id="services">
+				<h2>Services</h2>
+				<table border="1">
+					<caption>
+						Service Offerings
+					</caption>
+					<thead>
+						<tr>
+							<th>Service</th>
+							<th>Description</th>
+							<th>Progress</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Web Development</td>
+							<td>Building responsive websites.</td>
+							<td>
+								<progress
+									value="80"
+									max="100">
+									80%
+								</progress>
+							</td>
+						</tr>
+						<tr>
+							<td>Graphic Design</td>
+							<td>Creating visuals and graphics.</td>
+							<td>
+								<progress
+									value="90"
+									max="100">
+									90%
+								</progress>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<!-- Multimedia Section with figure, audio, video, iframe -->
+			<section id="portfolio">
+				<h2>Portfolio</h2>
+				<figure>
+					<img
+						src="https://via.placeholder.com/150"
+						alt="Sample Image" />
+					<figcaption>Sample Project Description</figcaption>
+				</figure>
+				<audio controls>
+					<source
+						src="sample.mp3"
+						type="audio/mpeg" />
+					Your browser does not support the audio element.
+				</audio>
+				<video
+					controls
+					width="300">
+					<source
+						src="sample.mp4"
+						type="video/mp4" />
+					Your browser does not support the video element.
+				</video>
+				<iframe
+					src="https://www.google.com"
+					width="600"
+					height="400"></iframe>
+			</section>
+
+			<!-- Form Section -->
+			<section id="contact">
+				<h2>Contact Us</h2>
+				<form
+					action="#"
+					method="POST">
+					<fieldset>
+						<legend>Personal Information</legend>
+						<label for="name">Name:</label>
+						<input
+							type="text"
+							id="name"
+							name="name"
+							required />
+						<br />
+						<label for="email">Email:</label>
+						<input
+							type="email"
+							id="email"
+							name="email"
+							required />
+						<br />
+						<label for="rating">Rate Us:</label>
+						<meter
+							id="rating"
+							value="3"
+							min="0"
+							max="5">
+							3/5
+						</meter>
+					</fieldset>
+
+					<fieldset>
+						<legend>Feedback</legend>
+						<label for="feedback">Comments:</label>
+						<textarea
+							id="feedback"
+							name="feedback"
+							rows="4"
+							required></textarea>
+						<br />
+						<label>Would you like to subscribe?</label>
+						<input
+							type="radio"
+							id="yes"
+							name="subscribe"
+							value="yes" />
+						<label for="yes">Yes</label>
+						<input
+							type="radio"
+							id="no"
+							name="subscribe"
+							value="no" />
+						<label for="no">No</label>
+					</fieldset>
+					<button type="submit">Submit</button>
+				</form>
+			</section>
+		</main>
+
+		<!-- Additional Rarely Used Tags -->
+		<section>
+			<h2>Additional Elements</h2>
+			<details>
+				<summary>More About Us</summary>
+				<p>Our company has been in business for over 10 years.</p>
+			</details>
+			<mark>Example text with <b>bold</b> and <i>italic</i> formatting.</mark>
+			<br />
+			<kbd>Press Ctrl + C</kbd> to copy.
+			<time datetime="2024-10-30">October 30, 2024</time>
+			<output>Calculated result goes here.</output>
+			<var>x</var> = 5, <var>y</var> = 10
+		</section>
+
+		<!-- Footer -->
+		<footer>
+			<p>&copy; 2024 HTML Practice Page. All rights reserved.</p>
+			<address>
+				Contact us at
+				<a href="mailto:info@htmlpractice.com">info@htmlpractice.com</a>
+			</address>
+		</footer>
+	</body>
+</html>

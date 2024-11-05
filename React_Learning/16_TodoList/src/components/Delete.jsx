@@ -1,12 +1,10 @@
 import React from 'react';
 
-function Delete() {
-	let name = 'Buy Milk';
-	let date = '16/03/2024';
+function Delete(props) {
 	return (
 		<>
-			<p>{name}</p>
-			<p>{date}</p>
+			<p>{props.name}</p>
+			<p>{props.date}</p>
 			<button className=" bg-red-600 px-5 py-2 rounded text-white">
 				Delete
 			</button>

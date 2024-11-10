@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Operators() {
-	const operators = ['/', 'x', '-', '+'];
+	const operators = ['/', 'x', '-', '+', '='];
 	return (
 		<>
 			<div className="grid grid-cols-1 gap-1">

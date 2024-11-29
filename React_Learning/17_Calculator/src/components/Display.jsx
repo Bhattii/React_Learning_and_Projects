@@ -1,10 +1,11 @@
+// Display.js
 import React from 'react';
 
-function Display() {
+function Display({ content }) {
 	return (
-		<>
-			<div className="border p-2 my-5 bg-white">Display</div>
-		</>
+		<div className="border py-2 px-5 text-right bg-gray-100 h-10">
+			{content}
+		</div>
 	);
 }
 
